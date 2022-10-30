@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Noto+Serif:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        color: white;
+    }
+
+    header::before {
+        background: url('food.jpg');
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.6;
+    }
+
+    .navigation {
+        margin: 0px;
+        display: flex;
+        font-size: 25px;
+        font-family: 'Noto Serif', serif;
+    }
+
+    li {
+        list-style: none;
+        padding: 10px 25px;
+    }
+
+    section {
+        /* border: 1px solid yellow; */
+        margin: 100px;
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Kalam', cursive;
+        /* font-family: 'Noto Serif', serif; */
+        font-size: 25px;
+    }
+    h1{
+        font-family: 'Noto Serif', serif;
+        font-size: 40px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to Food World</h1>
+        <p>
+            Food is the basic necessity of every organism. Food is a substance that we consume in order to derive energy
+            to run our body and nutrition to grow. All living organisms must have food to survive. It provides
+            nourishment to our body system and makes sure that it works smoothly. It aids many biological processes
+            inside the body and helps us grow. As much as it is important to have food, it is more important to have
+            healthy food. Healthy food is the one, which provides a well-balanced diet. It gives us complete nutrition.
+            It consists of food varieties that have maximum nutrients essential for the body. It also intends to provide
+            the right quantity of every nutrient which is required by the body.
+        </p>
+    </section>
+</body>
+
+</html>
